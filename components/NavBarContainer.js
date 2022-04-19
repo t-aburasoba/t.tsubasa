@@ -9,8 +9,6 @@ export const NavBarContainer = ({ children, ...props }) => {
             wrap="wrap"
             w="100%"
             py={5}
-            bg="white"
-            color='black'
             {...props}
         >
             <Container maxW='container.md'>

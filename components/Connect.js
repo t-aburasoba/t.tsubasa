@@ -16,14 +16,14 @@ export const Connect = () => {
                       _focus={{ boxShadow: 'none' }}
                       isExternal
                   >
-                      <IconContext.Provider value={{ color: '#1DA1F2', size: '50px' }}>
+                      <IconContext.Provider value={{ size: '50px' }}>
                           <AiOutlineTwitter />
                       </IconContext.Provider>
                   </Link>
               </Box>
               <Box _hover={{ opacity: 0.8}}>
                   <Link href='https://github.com/t-aburasoba' _focus={{ boxShadow: 'none' }} isExternal>
-                      <IconContext.Provider value={{ color: '#333', size: '50px' }}>
+                      <IconContext.Provider value={{ size: '50px' }}>
                           <AiOutlineGithub />
                       </IconContext.Provider>
                   </Link>

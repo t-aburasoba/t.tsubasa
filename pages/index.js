@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Box, Container} from "@chakra-ui/react";
 import {NavBar} from "../components/NavBar";

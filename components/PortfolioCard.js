@@ -47,7 +47,7 @@ export const PortfolioCard = (props) => {
                         />
                     </Box>
                     <Stack pt={5} align={'center'}>
-                        <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
+                        <Text fontSize={'sm'} textTransform={'uppercase'}>
                             {portfolio.type}
                         </Text>
                         <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>

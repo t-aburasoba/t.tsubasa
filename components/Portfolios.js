@@ -20,7 +20,7 @@ const portfolios = [
 
 export const Portfolios = () => {
     return (
-        <Box width='100%' my={5}>
+        <Box width='100%' my={10}>
             <Text fontSize='lg' fontWeight='bold' textDecoration='underline'>
                 Portfolios
             </Text>

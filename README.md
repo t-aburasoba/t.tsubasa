@@ -1,2 +1,8 @@
 ## T.Tsubasa
-My self-introducing page developed by Next.js
+My self-introducing page.
+
+## Developed with
+- Next.js
+- Chakra UI
+- Vercel
+

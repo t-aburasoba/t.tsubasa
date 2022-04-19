@@ -2,7 +2,7 @@ import {Box, Center, Image, Text} from "@chakra-ui/react";
 
 export const Information = () => {
   return (
-      <Box w='100%' my={5}>
+      <Box w='100%' my={10}>
           <Center h='100%'>
               <Image
                   borderRadius='full'

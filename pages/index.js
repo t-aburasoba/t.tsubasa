@@ -18,7 +18,7 @@ export default function Page() {
                 <title>T.Tsubasa Homepage</title>
             </Head>
             <NavBar/>
-            <Container maxW='container.md' pt={14} my={10}>
+            <Container maxW='container.md' my={10}>
                 <Typing />
                 <Information />
                 <Bio />

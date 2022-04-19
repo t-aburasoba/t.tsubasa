@@ -3,7 +3,7 @@ import {ArrowRightIcon} from "@chakra-ui/icons";
 
 export const Bio = () => {
     return (
-        <Box w='100%'>
+        <Box w='100%' my={10}>
             <Text fontSize='lg' fontWeight='bold' textDecoration='underline'>
                 Bio
             </Text>
@@ -14,13 +14,12 @@ export const Bio = () => {
                 </ListItem>
                 <ListItem>
                     <ListIcon as={ArrowRightIcon} color='green.500'/>
-                    2018 Faculty of Economics, Keio University
+                    2018 Graduated from the Faculty of Economics, Keio University
                 </ListItem>
                 <ListItem>
                     <ListIcon as={ArrowRightIcon} color='green.500'/>
-                    2018 The Shoko Chukin Bank，Ltd.
+                    2018 The Shoko Chukin Bank, Ltd.
                 </ListItem>
-                {/* You can also use custom icons from react-icons */}
                 <ListItem>
                     <ListIcon as={ArrowRightIcon} color='green.500'/>
                     2019 GAOGAO PTE. LTD.

@@ -7,7 +7,7 @@ export const NavBar = (props) => {
       <NavBarContainer {...props}>
           <Logo
               w="150px"
-              color={["white", "white", "primary.500", "primary.500"]}
+              color='black'
           />
       </NavBarContainer>
   );

@@ -2,14 +2,10 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {Box, Container} from "@chakra-ui/react";
 import {NavBar} from "../components/NavBar";
-import {Typing} from "../components/Typing";
-import {Information} from "../components/Information";
-import {Bio} from "../components/Bio";
-import {Connect} from "../components/Connect";
 import {Footer} from "../components/Footer";
-import {Media} from "../components/Media";
+import {Products} from "../components/Products";
 
-export default function Page() {
+export default function Portfolios() {
     return (
         <Box as='main' pb={8}>
             <Head>
@@ -18,11 +14,7 @@ export default function Page() {
             </Head>
             <NavBar/>
             <Container maxW='container.md' my={10}>
-                <Typing />
-                <Information />
-                <Bio />
-                <Connect />
-                <Media />
+                <Products />
             </Container>
             <Footer />
         </Box>

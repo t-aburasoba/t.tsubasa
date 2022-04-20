@@ -1,4 +1,4 @@
-import {Box, Center, Heading, Image, Link, Stack, Text, useColorModeValue} from "@chakra-ui/react";
+import {Box, Center, Flex, Heading, Image, Link, Stack, Text, useColorModeValue} from "@chakra-ui/react";
 
 export const PortfolioCard = (props) => {
     const {portfolio} = props
@@ -47,9 +47,13 @@ export const PortfolioCard = (props) => {
                         />
                     </Box>
                     <Stack pt={5} align={'center'}>
-                        <Text fontSize={'sm'} textTransform={'uppercase'}>
-                            {portfolio.type}
-                        </Text>
+                        <Flex gap={2}>
+                            {portfolio.types.map((type) => (
+                                <Text fontSize={'sm'} key={type}>
+                                    {type}
+                                </Text>
+                            ))}
+                        </Flex>
                         <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                             {portfolio.title}
                         </Heading>

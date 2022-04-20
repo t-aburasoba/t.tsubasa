@@ -1,37 +1,37 @@
 import {PortfolioCard} from "./PortfolioCard";
 import {Box, Grid, GridItem, Text} from "@chakra-ui/react";
 
-const portfolios = [
+const media = [
     {
         'title': "Aburasobalog",
         'imageHref': '/aburasobalog.png',
         'desc': "My Blog site",
         'link': 'https://aburasoba.org',
-        'type': 'Blog'
+        'types': ['Blog']
     },
     {
         'title': "Chill Programming",
         'imageHref': '/chillpro.png',
         'desc': "My YouTube channel",
         'link': 'https://www.youtube.com/channel/UCa3G1koay4eYW9SUJR4r9GA',
-        'type': 'Video'
+        'types': ['Video']
     },
 ]
 
-export const Portfolios = () => {
+export const Media = () => {
     return (
         <Box width='100%' my={10}>
             <Text fontSize='lg' fontWeight='bold' textDecoration='underline'>
-                Portfolios
+                Owned Media
             </Text>
             <Grid templateColumns={{ base:'repeat(1, 1fr)', md: 'repeat(2, 1fr)' }} gap={6} mt={5}>
-                {portfolios.map((portfolio) => (
+                {media.map((medium) => (
                     <GridItem
                         w='100%'
-                        key={portfolio.title}
+                        key={medium.title}
                     >
                         <PortfolioCard
-                            portfolio={portfolio}
+                            portfolio={medium}
                         />
                     </GridItem>
                 ))}

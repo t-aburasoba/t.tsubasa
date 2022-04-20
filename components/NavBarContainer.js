@@ -1,19 +1,18 @@
 import {Container, Flex} from "@chakra-ui/react";
 
-export const NavBarContainer = ({ children, ...props }) => {
+export const NavBarContainer = ({children, ...props}) => {
     return (
-        <Flex
-            as="nav"
-            align="center"
-            justify="space-between"
-            wrap="wrap"
-            w="100%"
-            py={5}
-            {...props}
-        >
-            <Container maxW='container.md'>
+        <Container maxW='container.md'>
+            <Flex
+                as="nav"
+                align="center"
+                justify="space-between"
+                wrap="wrap"
+                py={5}
+                {...props}
+            >
                 {children}
-            </Container>
-        </Flex>
+            </Flex>
+        </Container>
     )
 }
